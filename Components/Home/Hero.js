@@ -7,7 +7,7 @@ export default function Hero() {
     <div className={styles.bigcontainer}>
         <div className={styles.left}>
             <div className={styles.tagcont}>
-                <div className={styles.name}>PRITHUJ MONDAL</div>
+                <div className={styles.name}>PREETI SETHI</div>
                 <div className={styles.tag}>ART AS A MEDIUM OF LIFE</div>
             </div>
         </div>

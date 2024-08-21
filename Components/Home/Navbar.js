@@ -7,7 +7,7 @@ export default function Navbar() {
   const [open,setOpen] = useState(false)
   return (
     <div className={styles.bigcontainer}>
-        <div className={styles.logo}><div className={styles.initials}>PM</div><div className={styles.name}>PRITHUJ MONDAL</div></div>
+        <div className={styles.logo}><div className={styles.initials}>PS</div><div className={styles.name}>PREETI SETHI</div></div>
             <ul className={open ? `${styles.list}` : `${styles.olist}`}>
                 <Link className={styles.link} href={'/'}>Home</Link>
                 <Link className={styles.link} href={'/Exhibitions'}>Exhibitions</Link>
