@@ -8,6 +8,7 @@
     position: fixed;
     top: 0;
     width: 70%;
+    gap: 40%;
     background-color: white;
     z-index: 10;
     border-bottom: 1px solid black;

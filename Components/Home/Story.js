@@ -6,7 +6,7 @@ export default function Story() {
   return (
     <div className={styles.bigcontainer}>
         <div className={styles.left}>
-            <Image className={styles.artistimg} src={'/artworks/1 (32).png'} width={1000} height={1000} alt='image'/>
+            <Image className={styles.artistimg} src={'/artworks/16.jpg'} width={1000} height={1000} alt='image'/>
         </div>
         <div className={styles.right}>
             <div className={styles.heading}>Story</div>

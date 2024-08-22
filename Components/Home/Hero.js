@@ -8,12 +8,12 @@ export default function Hero() {
         <div className={styles.left}>
             <div className={styles.tagcont}>
                 <div className={styles.name}>PREETI SETHI</div>
-                <div className={styles.tag}>ART AS A MEDIUM OF LIFE</div>
+                <div className={styles.tag}> An Artist with a cause… <br/>my works are an extension of my thoughts</div>
             </div>
         </div>
         <div className={styles.right}>
         <div className={styles.dark}></div>
-            <Image className={styles.heroimg} src={'/heroimage/1 (1).png'} width={1000} height={1000} alt='image'/>
+            <Image className={styles.heroimg} src={'/heroimage/1.jpeg'} width={1000} height={1000} alt='image'/>
         </div>
     </div>
   )
