@@ -9,16 +9,16 @@
     top: 0;
     width: 70%;
     gap: 40%;
-    background-color: white;
+    background-color: #017893;
     z-index: 10;
-    border-bottom: 1px solid black;
+    color: white;
 }
 .menu{
     display: none;
 }
 .link{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .logo{
     display: flex;
@@ -75,6 +75,22 @@
         transition: 0.3s;
     }
     .menu{
+        color: white;
         display: block;
+    }
+}
+@media screen and (max-width: 600px){
+    .initials{
+        font-size: 2.2rem;
+    }
+    .name{
+        font-size: 0.6rem;
+    }
+    .list{
+        margin-top: -5px;
+        padding: 20px 5%;
+    }
+    .link{
+        color: black;
     }
 }

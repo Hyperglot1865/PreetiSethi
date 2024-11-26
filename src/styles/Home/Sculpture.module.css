@@ -7,9 +7,12 @@
     gap: 5%;
 }
 .artistimg{
-    width: 25vw;
-    height: 450px;
+    width: 15vw;
+    height: auto;
     object-fit: cover;
+}
+.gap{
+    margin-bottom: 10px;
 }
 .heading{
     font-family: "Merriweather", serif;
@@ -29,5 +32,13 @@
     .artistimg{
         width: 90vw;
         margin-top: 40px;
+    }
+}
+@media screen and (max-width: 600px){
+    .bigcontainer{
+        text-align: left;
+    }
+    .heading{
+        font-size: 2rem;
     }
 }

@@ -38,6 +38,8 @@
   }
   
   .timelinebox {
+    background-color: #005e74;
+    color: white;
     border: 1px solid #888888;
     padding: 20px;
     border-radius: 4px;
@@ -51,7 +53,7 @@
     display: block;
     margin-top: 10px;
     font-size: 0.85em;
-    color: #777;
+    color: #e7e7e7;
   }
   @media screen and (max-width: 1100px){
     .container{

@@ -51,6 +51,10 @@
     }
 }
 @media screen and (max-width: 600px){
+    .heroimg{
+        width: 100%;
+        height: auto;
+    }
     .name{
         font-size: 2.5rem;
     }
@@ -60,5 +64,19 @@
     }
     .tagcont{
         padding-left: 0;
+        margin-top: 30px;
+    }
+    .bigcontainer{
+        margin-top: 0px;
+        height: 300px;
+    }
+    .name{
+        font-size: 2rem;
+    }
+    .tag{
+        font-size: 1rem;
+    }
+    .left{
+        height: 300px;
     }
 }
